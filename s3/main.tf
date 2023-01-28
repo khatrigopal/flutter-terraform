@@ -1,6 +1,7 @@
-module "s3" {
+module "dev-s3" {
   source     = "../modules/s3"
-  bucket_name = "${var.bucket_name}"
-  acl_value    = "${var.acl_value}"
-
+  s3_buckets = var.s3_buckets
+  tags       = var.tags
+  versioning = var.versioning
+  acl        = var.s3_acl
 }
