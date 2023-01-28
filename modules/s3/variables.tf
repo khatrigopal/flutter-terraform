@@ -25,3 +25,8 @@ variable "versioning" {
   type        = string
   default     = "Enabled"
 }
+variable "bucket_force_destroy" {
+  description = ""
+  type        = bool
+  default     = "false"
+}
