@@ -1,5 +1,5 @@
 ###
-s3_buckets = "s3-bucket-east-1"
+bucket_name = "s3-bucket-east-1"
 
 tags = {
   "Environment" = "Dev"
