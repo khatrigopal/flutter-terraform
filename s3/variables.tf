@@ -66,3 +66,4 @@ variable "versioning" {
   description = "versioning config"
   type        = string
   default     = "Enabled"
+}
