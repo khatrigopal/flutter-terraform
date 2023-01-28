@@ -1,4 +1,4 @@
-module "dev-s3" {
+module "s3" {
   source     = "../modules/s3"
   s3_buckets = var.s3_buckets
   tags       = var.tags
