@@ -1,5 +1,5 @@
 ###
-s3_buckets = "dev-s3-bucket-east-1"
+s3_buckets = "bskhatrig-testing"
 
 tags = {
   "Environment" = "Dev"
